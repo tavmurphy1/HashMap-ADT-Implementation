@@ -29,7 +29,7 @@ This implementation supports both:
 
 # Usage Example
 
-** Create hash maps (adjust capacity as needed):**
+Create hash maps:
 sc_hashmap = HashMap(capacity=5, function=hash_function_1)  # Separate chaining
 oa_hashmap = HashMap(capacity=5, function=hash_function_2)  # Open Addressing
 
@@ -60,6 +60,7 @@ None, this project is self-contained.
 The DynamicArray class provides an interface similar to the standard Python list but with efficient resizing.
 HashEntry and SLNode are helper classes used to implement the hash map's internal structure.
 The HashMap class offers the core hash map functionality.
+Two hash functions are provided, but any hash function could be used with this implementation.
 The find_mode function demonstrates one use case of a hash map to quickly and efficiently locate the most frequent elements in an unsorted array.
 
 # Testing
