@@ -15,17 +15,17 @@ This implementation supports both:
 
 # Key Features
 
-put(key, value): Inserts or updates a key-value pair.
+**put(key, value)**: Inserts or updates a key-value pair.
 
-get(key): Retrieves the value associated with a key.
+**get(key)**: Retrieves the value associated with a key.
 
-contains_key(key): Checks if a key exists in the hash map.
+**contains_key(key)**: Checks if a key exists in the hash map.
 
-remove(key): Removes a key-value pair.
+**remove(key)**: Removes a key-value pair.
 
-get_keys_and_values(): Returns a list of key-value tuples.
+**get_keys_and_values()**: Returns a list of key-value tuples.
 
-table_load(): Calculates the hash table's load factor.
+**table_load()**: Calculates the hash table's load factor.
 
 # Usage Example
 
