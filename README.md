@@ -9,6 +9,7 @@ Hash Map: An efficient data structure for fast lookups, insertions, and deletion
 This implementation supports both:
 
 Separate Chaining (SC): Handles collisions by using linked lists at each hash table index.
+
 Open Addressing (OA): Handles collisions by probing for an empty slot in the hash table.
 
 # Key Features
