@@ -29,22 +29,17 @@ This implementation supports both:
 
 # Usage Example
 
-Create hash maps:
 sc_hashmap = HashMap(capacity=5, function=hash_function_1)  # Separate chaining
 oa_hashmap = HashMap(capacity=5, function=hash_function_2)  # Open Addressing
 
-**Add key-value pairs:**
 sc_hashmap.put("name", "Alice")
 oa_hashmap.put("email", "alice@email.com")
 
-**Retrieve a value**
 name = sc_hashmap.get("name") 
 
-**Check for a key**
 if oa_hashmap.contains_key("age"):
     print("Age key exists")
 
-**Find elements with the most occurrences in a dynamic array**
 mode, frequency = find_mode(da)
 
 # Installation
