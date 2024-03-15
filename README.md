@@ -17,24 +17,35 @@ Open Addressing (OA): Handles collisions by probing for an empty slot in the has
 DynamicArray:
 
 append(value): Adds an element to the end of the array.
+
 pop(): Removes and returns the last element of the array.
+
 swap(i, j): Swaps elements at specified indices.
+
 get_at_index(index): Returns the element at a given index.
+
 set_at_index(index, value): Sets the value at a given index.
+
 length(): Returns the current size of the array.
-Separate Chaining Hash Map:
 
 Separate Chaining (SC) Hashmap:
 
 put(key, value): Inserts or updates a key-value pair.
+
 get(key): Retrieves the value associated with a key.
+
 contains_key(key): Checks if a key exists in the hash map.
+
 remove(key): Removes a key-value pair.
+
 get_keys_and_values(): Returns a list of key-value tuples.
+
 table_load(): Calculates the hash table's load factor.
+
 Open Addressing Hash Map
 
 Open Addressing (OA) Hashmap:
+
 (Same methods as Separate Chaining)
 
 # Usage Example
