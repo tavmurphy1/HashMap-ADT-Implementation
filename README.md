@@ -1,6 +1,6 @@
 # Hashmap ADT Project Description
 
-This project represents an implementation two forms of the Hashmap ADT, supporting Separate Chaining and Open Addressing collision handling.
+This project represents an implementation two forms of Hashmap ADT utilizing Separate Chaining and Open Addressing collision handling.
 
 This project does not utilize any pre-built Python data structures such as lists or dictionaries.
 
