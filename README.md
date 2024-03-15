@@ -5,7 +5,8 @@ Hash Map: An efficient data structure for fast lookups, insertions, and deletion
 This is an implementation two forms of Hashmap ADT, utilizing Separate Chaining and Open Addressing collision handling, respectively.
 
 This project does not utilize any pre-built Python data structures such as lists or dictionaries. 
-Instead The Hashmap ADT is built using custom DynamicArray, StaticArray, and LinkedList ADTs built from scratch.
+
+Instead the Hashmap ADT is built using custom DynamicArray, StaticArray, and LinkedList ADTs built from scratch.
 
 This implementation supports both:
 
