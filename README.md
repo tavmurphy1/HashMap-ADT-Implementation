@@ -3,6 +3,7 @@
 This project represents an implementation two forms of the Hashmap ADT, supporting Separate Chaining and Open Addressing collision handling.
 
 This project does not utilize any pre-built Python data structures such as lists or dictionaries.
+
 Hash Map: An efficient data structure for fast lookups, insertions, and deletions based on keys.
 
 This implementation supports both:
