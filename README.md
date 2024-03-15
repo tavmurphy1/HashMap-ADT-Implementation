@@ -15,8 +15,6 @@ Open Addressing (OA): Handles collisions by probing for an empty slot in the has
 
 # Key Features
 
-Separate Chaining (SC) Hashmap:
-
 put(key, value): Inserts or updates a key-value pair.
 
 get(key): Retrieves the value associated with a key.
@@ -28,10 +26,6 @@ remove(key): Removes a key-value pair.
 get_keys_and_values(): Returns a list of key-value tuples.
 
 table_load(): Calculates the hash table's load factor.
-
-Open Addressing (OA) Hashmap:
-
-(Same methods as Separate Chaining)
 
 # Usage Example
 
