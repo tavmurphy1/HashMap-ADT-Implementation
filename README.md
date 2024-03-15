@@ -1,16 +1,17 @@
 # Hashmap ADT Project Description
 
-This project represents an implementation two forms of Hashmap ADT utilizing Separate Chaining and Open Addressing collision handling.
-
-This project does not utilize any pre-built Python data structures such as lists or dictionaries.
-
 Hash Map: An efficient data structure for fast lookups, insertions, and deletions based on keys.
 
+This is an implementation two forms of Hashmap ADT, utilizing Separate Chaining and Open Addressing collision handling, respectively.
+
+I chose not to utilize any pre-built Python data structures such as lists or dictionaries. 
+Instead The Hashmap ADT is built using custom DynamicArray, StaticArray, and LinkedList ADTs. 
+
 This implementation supports both:
-
-Separate Chaining (SC): Handles collisions by using linked lists at each hash table index.
-
-Open Addressing (OA): Handles collisions by probing for an empty slot in the hash table.
+**
+Separate Chaining (SC): Handles collisions by using linked lists at each hash table index.**
+**
+Open Addressing (OA): Handles collisions by probing for an empty slot in the hash table.**
 
 # Key Features
 
