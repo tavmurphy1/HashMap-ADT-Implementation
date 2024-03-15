@@ -30,6 +30,7 @@ This implementation supports both:
 # Usage Example
 
 sc_hashmap = HashMap(capacity=5, function=hash_function_1)  # Separate chaining
+
 oa_hashmap = HashMap(capacity=5, function=hash_function_2)  # Open Addressing
 
 sc_hashmap.put("name", "Alice")
