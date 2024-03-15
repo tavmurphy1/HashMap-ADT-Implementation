@@ -9,9 +9,9 @@ Instead The Hashmap ADT is built using custom DynamicArray, StaticArray, and Lin
 
 This implementation supports both:
 
-Separate Chaining (SC): Handles collisions by using linked lists at each hash table index.**
+**Separate Chaining (SC): Handles collisions by using linked lists at each hash table index.**
 
-Open Addressing (OA): Handles collisions by probing for an empty slot in the hash table.**
+**Open Addressing (OA): Handles collisions by probing for an empty slot in the hash table.**
 
 # Key Features
 
